@@ -1,0 +1,35 @@
+{
+  "name": "Testimonial",
+  "type": "object",
+  "properties": {
+    "client_name": {
+      "type": "string",
+      "description": "Client name"
+    },
+    "client_title": {
+      "type": "string",
+      "description": "Client title or profession"
+    },
+    "client_image": {
+      "type": "string",
+      "description": "Client photo URL"
+    },
+    "content": {
+      "type": "string",
+      "description": "Testimonial content"
+    },
+    "rating": {
+      "type": "number",
+      "description": "Rating out of 5"
+    },
+    "property_purchased": {
+      "type": "string",
+      "description": "Name of property purchased"
+    }
+  },
+  "required": [
+    "client_name",
+    "content",
+    "rating"
+  ]
+}

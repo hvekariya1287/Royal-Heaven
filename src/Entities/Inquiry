@@ -1,0 +1,56 @@
+{
+  "name": "Inquiry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Client name"
+    },
+    "email": {
+      "type": "string",
+      "description": "Client email"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Client phone"
+    },
+    "message": {
+      "type": "string",
+      "description": "Inquiry message"
+    },
+    "property_id": {
+      "type": "string",
+      "description": "Related property ID if applicable"
+    },
+    "inquiry_type": {
+      "type": "string",
+      "enum": [
+        "general",
+        "property",
+        "booking",
+        "consultation"
+      ],
+      "default": "general"
+    },
+    "preferred_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Preferred visit date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "contacted",
+        "scheduled",
+        "completed"
+      ],
+      "default": "new"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "message"
+  ]
+}

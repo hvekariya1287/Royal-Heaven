@@ -1,0 +1,85 @@
+{
+  "name": "Property",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Property name"
+    },
+    "price": {
+      "type": "number",
+      "description": "Price in USD"
+    },
+    "location": {
+      "type": "string",
+      "description": "Property location"
+    },
+    "bedrooms": {
+      "type": "number",
+      "description": "Number of bedrooms"
+    },
+    "bathrooms": {
+      "type": "number",
+      "description": "Number of bathrooms"
+    },
+    "sqft": {
+      "type": "number",
+      "description": "Square footage"
+    },
+    "property_type": {
+      "type": "string",
+      "enum": [
+        "mansion",
+        "villa",
+        "penthouse",
+        "estate",
+        "palace"
+      ],
+      "description": "Type of property"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Property image URLs"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full property description"
+    },
+    "amenities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of amenities"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Is this a featured property"
+    },
+    "agent_name": {
+      "type": "string",
+      "description": "Listing agent name"
+    },
+    "agent_phone": {
+      "type": "string",
+      "description": "Agent phone number"
+    },
+    "agent_email": {
+      "type": "string",
+      "description": "Agent email"
+    }
+  },
+  "required": [
+    "title",
+    "price",
+    "location",
+    "bedrooms",
+    "bathrooms",
+    "sqft",
+    "property_type"
+  ]
+}

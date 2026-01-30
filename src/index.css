@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Customizing colors as per your Layout.js vars */
+  --color-royal-blue: #0b1c2d;
+  --color-gold: #d4af37;
+  --color-ivory: #f9f6f1;
+
+  /* Customizing fonts */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  /* Accordion Animations (required for your shadcn components) */
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+}
+
+/* Custom Scrollbar Styles */
+@layer base {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-ivory);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-gold);
+    border-radius: 5px;
+  }
+}
