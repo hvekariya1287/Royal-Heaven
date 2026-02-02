@@ -13,7 +13,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-import Hero from "@/components/Hero";
+import Hero from "../Components/Hero";
 import PropertyCard from "@/components/PropertyCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import ServiceCard from "@/components/ServiceCard";
