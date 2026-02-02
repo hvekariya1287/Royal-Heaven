@@ -14,11 +14,11 @@ import {
 } from "lucide-react";
 
 import Hero from "../Components/Hero";
-import PropertyCard from "../components/PropertyCard";
-import TestimonialCard from "../components/TestimonialCard";
-import ServiceCard from "../components/ServiceCard";
-import SectionTitle from "../components/SectionTitle";
-import Loader from "../components/Loader";
+import PropertyCard from "../Components/PropertyCard";
+import TestimonialCard from "../Components/TestimonialCard";
+import ServiceCard from "../Components/ServiceCard";
+import SectionTitle from "../Components/SectionTitle";
+import Loader from "../Components/Loader";
 
 const services = [
   {
