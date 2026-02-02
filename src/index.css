@@ -10,7 +10,7 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 
-  /* Accordion Animations (required for your shadcn components) */
+  /* Accordion Animations (required for your shadcn Components) */
   @keyframes accordion-down {
     from { height: 0; }
     to { height: var(--radix-accordion-content-height); }

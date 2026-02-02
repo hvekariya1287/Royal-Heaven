@@ -11,27 +11,27 @@ import {
   X,
   ChevronDown,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Slider } from "@/components/ui/slider";
+} from "@/Components/ui/select";
+import { Slider } from "@/Components/ui/slider";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "@/Components/ui/sheet";
 
-import PropertyCard from "@/components/PropertyCard";
-import SectionTitle from "@/components/SectionTitle";
-import Loader from "@/components/Loader";
+import PropertyCard from "@/Components/PropertyCard";
+import SectionTitle from "@/Components/SectionTitle";
+import Loader from "@/Components/Loader";
 
 const propertyTypes = ["mansion", "villa", "penthouse", "estate", "palace"];
 const locations = [

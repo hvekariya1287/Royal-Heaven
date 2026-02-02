@@ -14,7 +14,7 @@ import {
   Phone,
 } from "lucide-react";
 
-import SectionTitle from "@/components/SectionTitle";
+import SectionTitle from "../Components/SectionTitle";
 
 const services = [
   {

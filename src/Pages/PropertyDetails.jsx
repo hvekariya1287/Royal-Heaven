@@ -27,12 +27,12 @@ import {
   Wifi,
   Wind,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
+import { Textarea } from "@/Components/ui/textarea";
 import { toast } from "sonner";
 
-import Loader from "@/components/Loader";
+import Loader from "@/Components/Loader";
 
 const amenityIcons = {
   "Swimming Pool": Waves,
